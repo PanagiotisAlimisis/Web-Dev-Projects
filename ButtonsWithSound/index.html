@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Buttons with Sound</title>
+
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body>
+
+        <div class="keys">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">Alarm</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">Bass</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">Bells</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">Boing</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">Camera</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">Guitar</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">Piano</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">Whistle</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">Xylophone</span>
+            </div>
+        </div>
+
+        <audio data-key="65" src="sounds/Alarm.mp3"></audio>
+        <audio data-key="83" src="sounds/Bass.mp3"></audio>
+        <audio data-key="68" src="sounds/Bells.mp3"></audio>
+        <audio data-key="70" src="sounds/Boing.mp3"></audio>
+        <audio data-key="71" src="sounds/Camera.mp3"></audio>
+        <audio data-key="72" src="sounds/Guitar.mp3"></audio>
+        <audio data-key="74" src="sounds/Piano.mp3"></audio>
+        <audio data-key="75" src="sounds/Whistle.mp3"></audio>
+        <audio data-key="76" src="sounds/Xylophone.mp3"></audio>
+        
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
