@@ -1,0 +1,25 @@
+input {
+    font-size: 30px;
+    width: 20rem;
+    min-height: 2vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color:darkgray;
+    border-width: .1px;
+    color: black;
+    text-align: left;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.container img {
+    width: 20px;
+    margin-left: -40;
+    align-items: center;
+    cursor: pointer;
+}
