@@ -13,6 +13,8 @@ body {
     font-weight: bold;
     font-size: 1.2em;
     padding-top: 0.5px;
+    border-bottom: 0.2em solid #BB1919;
+    color: #6C6C6C;
 }
 
 .top-bar {
@@ -34,7 +36,7 @@ body {
     border-right: 1px solid #CCCCCC;
     font-weight: bold;
     font-size: 0.8em;
-    padding: 12.5px 10px;
+    padding: 12.5px 15px;
 }
 
 .news-bar {
@@ -50,7 +52,7 @@ body {
     font-size: 2.6em;
     font-family: Arial;
     position: relative;
-    right: 4px;
+    right: 98px;
 }
 
 .category-bar {
@@ -101,6 +103,10 @@ body {
     top: 8px;
 }
 
+#last-category {
+    border-right: none;
+}
+
 .content {
     background-color: white;
     width: 100%;
@@ -108,27 +114,44 @@ body {
 }
 
 .content h1 {
-    color: #222222;
+    position: relative;
+    left: 519px;
+    top: -270px;
+    color: #716C65;
+    width: 540px;
 }
 
 .content img {
-    float: top;
+    float: left;
     margin-top: 10px;
+    width: 500px;
 }
 
 .content p {
-    width: 475px;
+    color: #5A5A5A;
+    position: relative;
+    left: 519px;
+    top: -270px;
+    width: 400px;
+    width: 500px;
 }
 
-.content a {
+.content ul li {
+    position: relative;
+    left: 490px;
+    top: -270px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.content ul li a{
     text-decoration: none;
+    color:black;
 }
 
 #content-links {
     width: 500px;
     margin-top: 50px;
-    position: relative;
-    right: 30px;
 }
 
 #logo {
@@ -151,13 +174,19 @@ body {
     float: left;
     width: 180px;
     padding: 10px;
+    padding-top: 7px;
 }
 
 #search-box-input {
     height: 20px;
-    padding-bottom: 1px; 
+    padding-bottom: 1px;
     background-image: url("https://nav.files.bbci.co.uk/searchbox/e9ff1f476bd0916bdea190a830436c38/img/gel-icon-search-dark.svg");    
     background-repeat: no-repeat;
     background-position: right center;
-
+    background-size: 15px;
+    background-position-x: 160px;
+    background-color: #E4E4E4;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
 }
