@@ -1,10 +1,16 @@
+html {
+    background-color: #eee;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
-    margin: 0;
+    margin: 0 auto;
     width: 100vw;
     text-align: center;
     overflow-x: hidden;
+    max-width: 1500px;
+    background-color: white;
 }
 
 img {
@@ -127,6 +133,30 @@ header p {
     font-size: 1.6rem;
 }
 
+#work1 {
+    grid-area: work1;
+}
+
+#work2 {
+    grid-area: work2;
+}
+
+#work3 {
+    grid-area: work3;
+}
+
+#work4 {
+    grid-area: work4;
+}
+
+#work5 {
+    grid-area: work5;
+}
+
+#work6 {
+    grid-area: work6;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -136,11 +166,34 @@ header p {
     margin-bottom: 1rem;
     background-color: lightblue;
     padding: 1rem;
+    position: relative;
 }
+
 
 .grid-item img {
     width: 100%;
     height: 100%;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.grid-item:hover > .hidden-text {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-item:hover img {
+    filter: brightness(0.6);
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 @media (min-width: 860px) {
@@ -236,6 +289,10 @@ header p {
         height: 100vh;;
         grid-template-columns: repeat(3, 1fr);
         grid-gap:20px;
+        grid-template-areas: 
+        "work1 work4 work6"
+        "work2 work3 work5"
+        ;
     }
 
     .grid-item {
