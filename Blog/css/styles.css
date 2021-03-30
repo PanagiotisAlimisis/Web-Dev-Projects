@@ -1,0 +1,115 @@
+@import url("main-page.css");
+@import url("post-page.css");
+@import url("../design-systems/design-styles.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #222;
+} 
+
+body {
+    background-color: #eef;
+}
+
+.permanent-marker-font {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.permanent-marker-font h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    text-align: start;
+    letter-spacing: 1.6rem;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+}
+
+
+nav {
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(1fr));
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.navigator {
+    grid-area: hd;
+}
+
+.features {
+    grid-area: ftr;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.content {
+    grid-area: cnt;
+    margin-top: 15rem;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer a {
+    color: #555;
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+}
+
+.fa-facebook{
+    color: #1877F2;
+}
+
+.fa-twitter {
+    color: #1A91DA;
+}
+
+.fa-github{
+    color: #24292E;
+}
+
+.fab {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#list-item a{
+    text-decoration: none;
+    color: #222;
+    text-transform:capitalize;
+    text-decoration:underline;
+}

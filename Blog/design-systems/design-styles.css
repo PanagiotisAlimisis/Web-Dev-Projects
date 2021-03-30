@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+h1 {
+    font-size: 800;
+}
+
+h2 {
+    font-size: 600;
+}
+h3 {
+    font-size: 400;
+}
+
+p {
+    text-align: justify;
+    text-decoration: none;
+}
+
+p em {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #442231;
+}
+
+p i {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #4b2f3a;
+}
+
+.ph {
+    display: flex;
+    flex-direction: row;
+}
+
+/*QUOTES*/
+.quote blockquote {
+    margin: 0;
+}
+
+.quote blockquote p{
+    padding: 15px;
+    background-color: rgba(140, 169, 202, 0.329);
+    border-radius: 5px;
+}
+
+.quote blockquote p i{
+    color: #343;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.quote figcaption {
+    text-shadow: 1px 1px 10px #234;
+}
+/*CARDS*/
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem 3rem;
+}
+
+.card {
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+.card-item{
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgb(0, 0, 0, 0.5);
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 3rem;
+}
+
+.card-header {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+.card-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #d8e0fd;
+    color: #222;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.card-btn:hover {
+    background-color: #c2cffc;
+    margin-left: 1.5rem;
+}
+
+.card-btn a {
+    text-decoration: none;;
+    color: #222;
+}
+
+/*COLLAGE*/
+
+.collage {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "top-left top-right"
+    "bottom-left bottom-right";
+}
+
+.collage .photos figure {
+    display: flex;
+    flex-flow: column;
+}
+
+.collage .photos figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    margin-top: -2rem;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#photo1 {
+    grid-area: top-left;
+    height: 100%;
+    width: 100%;
+}
+
+#photo2 {
+    grid-area: top-right;
+    width: 100%;
+    height: 100%;
+}
+
+#photo3 {
+    grid-area: bottom-left;
+    width: 100%;
+    height: 100%;
+}
+
+#photo4 {
+    grid-area: bottom-right;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*SIDEBAR*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #bbbc88;
+
+}
+
+.sidebar h3 {
+    font-size: 1.7rem;
+    border-bottom: 2px solid #343;
+    border-radius: .3rem;
+}
+
+.sidebar ul {
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.sidebar ul li{
+    padding-top: .4rem;
+    list-style: none;
+}
+
+
+.sidebar ul li a{
+    color: #444;
+}
+
+
+@media (min-width: 200px) and (max-width: 1024px) {
+    .quote {
+        margin: 1rem 7rem;
+        font-size: 2rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 23px;
+        max-width: 100%;
+        font-weight: bold;
+        color: #334;
+        padding: 0 1rem;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 2rem;
+    }
+    .wrapper {
+        border-radius: 1rem;
+        padding: 0 1rem;
+    }
+    .sidebar li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .quote {
+        margin: 1rem auto;
+        font-size: 1.7rem;
+        width: 70%;
+    }
+    
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        list-style: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 23px;
+    }
+
+    #list-item {
+        padding: 0 1.5rem;
+    }
+
+    .wrapper {
+        margin-top: 10rem;
+        border-radius: 1rem;
+        height: 30rem;
+    }
+
+    .sidebar h3{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .sidebar li {
+        padding: 2.5rem;
+        font-size: 1.5rem;
+    }
+}

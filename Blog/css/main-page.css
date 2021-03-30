@@ -1,0 +1,48 @@
+
+.header {
+    background: url("../images/city.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header p {
+    color: #eee;
+    padding: 10rem 5rem;
+    font-size: 5rem;
+}
+
+/*Laptops and PCs.*/
+@media (min-width: 1025px) {
+    .blog-container {
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "cnt cnt cnt cnt cnt cnt cnt cnt"
+        "ft ft ft ft ft ft ft ft";
+    }    
+}
+
+/*Smartphones and tablets*/
+@media (min-width: 200px) and (max-width: 1024px)
+{
+    html {
+        font-size: 8px !important;
+    }
+    
+    .blog-container {
+        grid-template-areas:
+        "hd"
+        "cnt"
+        "ft";
+    }
+    .header p {
+        color: #eee;
+        padding: 0;
+        font-size: 5rem;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+
+
