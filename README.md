@@ -5,7 +5,7 @@ Projects to get started with web development.
 # Easy
 [BBC_Clone](BBC_Clone): This is a clone page of BBC website.
 
-[Blog](https://codepen.io/panagiotis1/pen/JjbqvoY) A blog website about cities.
+[Blog](Blog) A blog website about cities.
 
 [ButtonsWithSound](ButtonsWithSound): Buttons playing music.
 
