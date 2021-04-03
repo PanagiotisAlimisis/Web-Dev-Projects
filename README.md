@@ -9,7 +9,7 @@ Projects to get started with web development.
 
 [ButtonsWithSound](ButtonsWithSound): Buttons playing music.
 
-[Color Flipper](Color Flipper): A page that changes background color with a click.
+[Color Flipper](ColorFlipper): A page that changes background color with a click.
 
 [Counter](Counter): Simple counter app.
 
