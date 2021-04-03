@@ -12,8 +12,6 @@
     --clr-white: #fff;
     /*Fonts*/
     --font-primary: 'Yatra One', cursive;
-    /*Shadows*/
-    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     /*Spacing*/
     --spacing: 0.1rem;
     /*Width*/
@@ -104,7 +102,7 @@ nav {
     height: 3rem;
     display: grid;
     align-items: center;
-    box-shadow: var(--dark-shadow);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .nav-center {
