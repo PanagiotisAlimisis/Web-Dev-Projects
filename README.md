@@ -13,8 +13,9 @@ Projects to get started with web development.
 
 [Counter](Counter): Simple counter app.
 
+[Expanding Cards](https://codepen.io/panagiotis1/pen/xxgdYob): Card container expanding when on click.
+
 [Parallax Website](ParallaxWebsite): A simple parallax website.
 
 [Tribute Page](https://codepen.io/panagiotis1/pen/JjbqvoY): A tribute page.
 
-[Expanding Cards](https://codepen.io/panagiotis1/pen/xxgdYob): Card container expanding when on click.
