@@ -1,3 +1,6 @@
 # Web development tutorial
 
-My daily projects in order to learn web development.
+Projects to get started with web development.
+
+# Easy
+[BBC_Clone](: This is a clone page of BBC website.)
