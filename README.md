@@ -15,6 +15,8 @@ Projects to get started with web development.
 
 [Expanding Cards](https://codepen.io/panagiotis1/pen/xxgdYob): Card container expanding when on click.
 
+[Scroll To View Landing Page](Landing-Page): A landing page that focusing on scrolling smoothly.
+
 [Parallax Website](ParallaxWebsite): A simple parallax website.
 
 [Review Cards](Review-Cards): Person review cards.
