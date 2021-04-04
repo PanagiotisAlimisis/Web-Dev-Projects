@@ -17,5 +17,7 @@ Projects to get started with web development.
 
 [Parallax Website](ParallaxWebsite): A simple parallax website.
 
+[Review Cards](Review-Cards): Person review cards.
+
 [Tribute Page](https://codepen.io/panagiotis1/pen/JjbqvoY): A tribute page.
 

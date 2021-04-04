@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+:root {
+    /*Colors*/
+    --clr-blue-1: #2b71a0;
+    --clr-blue-2: #33125e;
+    --clr-grey-1: #0a0e46;
+    --clr-white-1: #eeeff5;
+    --clr-white-2: #ecfff5;
+    /*Fonts*/
+    --font-1: 'Yatra One', cursive, sans-serif;
+
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--clr-white-1);
+    font-family: var(--font-1);
+    font-size: 10px;
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+}
+
+main {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 60vw;
+    max-width: 700px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+}
+
+.underlined {
+    background: var(--clr-blue-1);
+    height: 0.35rem;
+    width: 6rem;
+    margin: 0 auto;
+    border-radius: 30%;
+}
+
+.review {
+    background: var(--clr-white-2);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    max-width: 500px;
+}
+
+.img-container {
+    background: var(--clr-white-2);
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+#person-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.review h3 {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.review h4 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.review p {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.button-container {
+    margin: 1rem auto;
+}
+
+.prev-btn,
+.next-btn {
+    color: var(--clr-blue-1);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-blue-2);
+  font-size: 1.35rem;
+}
+
+
+.random-btn {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    background: transparent;
+    border-radius: 2rem;
+    padding: .6rem;
+    border-color: var(--clr-blue-1);
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.random-btn:hover{
+    background-color: var(--clr-blue-1);
+    color: var(--clr-white-2);
+}
+
