@@ -9,6 +9,8 @@ Projects to get started with web development.
 
 [Buttons With Sound](ButtonsWithSound): Buttons playing music.
 
+[Clock](https://codepen.io/panagiotis1/pen/YzNQwZO): A digital clock showing the current time.
+
 [Color Flipper](ColorFlipper): A page that changes background color with a click.
 
 [Counter](Counter): Simple counter app.
