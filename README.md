@@ -25,3 +25,4 @@ Projects to get started with web development.
 
 [Tribute Page](https://codepen.io/panagiotis1/pen/JjbqvoY): A tribute page.
 
+[Weather Journal App](Weather-Journal-App): An app that retrieves data from OpenWeatherMap API and displays the temperature for every city in the world.
