@@ -15,7 +15,7 @@ Projects to get started with web development.
 
 [Counter](Counter): Simple counter app.
 
-[Evaluate A News Article with Natural Language Processing] (nlpwebsite): Sentimentent analysis on articles.
+[Evaluate A News Article with Natural Language Processing](nlpwebsite): Sentiment analysis on articles.
 
 [Expanding Cards](https://codepen.io/panagiotis1/pen/xxgdYob): Card container expanding when on click.
 
